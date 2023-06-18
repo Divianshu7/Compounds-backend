@@ -1,0 +1,27 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm database.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.3.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "express-boom": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.3.5",
+    "path": "^0.12.7",
+    "sequelize": "^6.32.0",
+    "sequelize-cli": "^6.6.1"
+  }
+}
