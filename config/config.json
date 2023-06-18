@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "Divianshu$7",
-    "database": "compound_list",
-    "host": "127.0.0.1",
+    "username": "sql12627033",
+    "password": "DSG8AyVSkK",
+    "database": "sql12627033",
+    "host": "sql12.freesqldatabase.com",
     "dialect": "mysql"
   },
   "test": {

@@ -1,5 +1,5 @@
-CREATE TABLE compounds1(
-    id integer PRIMARY KEY AUTO_INCREMENT,
+CREATE TABLE compounds1s(
+    id integer ,
     compoundName varchar(1055),
     compoundDescription varchar(1055) ,
     imgSource varchar(1055),
@@ -7,7 +7,7 @@ CREATE TABLE compounds1(
     dateModified varchar(255)  
 );
 Load data Local infile 'C:/Users/Divianshu Jaswal/Downloads/compound.csv'
-into TABLE compounds1
+into TABLE compounds1s
 fields terminated by ','
 optionally enclosed by '"' 
 lines terminated by '\r\n'
